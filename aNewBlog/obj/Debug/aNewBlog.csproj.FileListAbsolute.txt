@@ -1,0 +1,234 @@
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\csc.exe
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\System.Collections.Immutable.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\System.Reflection.Metadata.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\vbc.exe
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\VBCSCompiler.exe
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\roslyn\VBCSCompiler.exe.config
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\aNewBlog.dll.config
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\aNewBlog.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\aNewBlog.pdb
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Antlr3.Runtime.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\EntityFramework.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\EntityFramework.SqlServer.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Core.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Cookies.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Facebook.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Google.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.OAuth.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Twitter.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Web.Infrastructure.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Newtonsoft.Json.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Owin.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.Helpers.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.Mvc.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.Optimization.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.Razor.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.WebPages.Deployment.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.WebPages.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.WebPages.Razor.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\WebGrease.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.Helpers.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.Mvc.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.Optimization.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.Razor.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.WebPages.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.WebPages.Deployment.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Web.WebPages.Razor.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Antlr3.Runtime.pdb
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Newtonsoft.Json.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\EntityFramework.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\EntityFramework.SqlServer.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Core.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Facebook.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Cookies.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.OAuth.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Google.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Twitter.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\obj\Debug\aNewBlog.csprojResolveAssemblyReference.cache
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\obj\Debug\aNewBlog.dll
+\\mac\home\documents\visual studio 2015\Projects\aNewBlog\aNewBlog\obj\Debug\aNewBlog.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\aNewBlog\aNewBlog\bin\SendGrid.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\aNewBlog\aNewBlog\bin\SendGrid.SmtpApi.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\aNewBlog\aNewBlog\bin\SendGridMail.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Net.Http.Formatting.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\aNewBlog\aNewBlog\bin\System.Net.Http.Formatting.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\aNewBlog\aNewBlog\bin\PagedList.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\aNewBlog\aNewBlog\bin\PagedList.Mvc.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\aNewBlog\aNewBlog\bin\PagedList.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\aNewBlog\aNewBlog\bin\PagedList.Mvc.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\csc.exe
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\vbc.exe
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\VBCSCompiler.exe
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\aNewBlog.dll.config
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\aNewBlog.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\aNewBlog.pdb
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Antlr3.Runtime.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\EntityFramework.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\EntityFramework.SqlServer.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Newtonsoft.Json.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Owin.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\PagedList.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\PagedList.Mvc.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\SendGrid.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\SendGrid.SmtpApi.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\SendGridMail.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Net.Http.Formatting.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.Helpers.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.Mvc.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.Optimization.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.Razor.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.WebPages.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.WebPages.Razor.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\WebGrease.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Antlr3.Runtime.pdb
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Newtonsoft.Json.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\PagedList.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\PagedList.Mvc.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Net.Http.Formatting.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.Helpers.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.Mvc.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.Optimization.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.Razor.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.WebPages.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\System.Web.WebPages.Razor.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\EntityFramework.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\EntityFramework.SqlServer.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\obj\Debug\aNewBlog.csprojResolveAssemblyReference.cache
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\obj\Debug\aNewBlog.dll
+C:\Users\antonioraynor\Dropbox (Personal)\CFProjs\aNewBlog\aNewBlog\obj\Debug\aNewBlog.pdb
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\csc.exe
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\System.Collections.Immutable.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\System.Reflection.Metadata.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\vbc.exe
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\VBCSCompiler.exe
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\roslyn\VBCSCompiler.exe.config
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\aNewBlog.dll.config
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\aNewBlog.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\aNewBlog.pdb
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Antlr3.Runtime.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\EntityFramework.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\EntityFramework.SqlServer.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Core.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Cookies.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Facebook.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Google.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.OAuth.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Twitter.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Web.Infrastructure.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Newtonsoft.Json.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Owin.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\PagedList.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\PagedList.Mvc.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\SendGrid.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\SendGrid.SmtpApi.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\SendGridMail.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Net.Http.Formatting.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.Helpers.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.Mvc.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.Optimization.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.Razor.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.WebPages.Deployment.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.WebPages.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.WebPages.Razor.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\WebGrease.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Antlr3.Runtime.pdb
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Newtonsoft.Json.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\PagedList.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\PagedList.Mvc.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Net.Http.Formatting.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.Helpers.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.Mvc.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.Optimization.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.Razor.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.WebPages.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.WebPages.Deployment.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\System.Web.WebPages.Razor.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\EntityFramework.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\EntityFramework.SqlServer.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Core.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Facebook.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Cookies.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.OAuth.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Google.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.Twitter.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\obj\Debug\aNewBlog.csprojResolveAssemblyReference.cache
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\obj\Debug\aNewBlog.dll
+V:\TeamCoderFoundry\Curriculum\Tracks\Coder Foundry Instructional Apps\aNewBlog\aNewBlog\obj\Debug\aNewBlog.pdb

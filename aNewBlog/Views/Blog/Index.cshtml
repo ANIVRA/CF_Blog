@@ -1,0 +1,165 @@
+﻿@model PagedList.PagedList<aNewBlog.Models.BlogPost>
+
+<!-- PAGE HEADER
+============================== -->
+<div class="page__header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="@Url.Action("Create")"><h3 class="page-header__title">Blog</h3></a>
+                @Html.ActionLink("New Blog","Create","Blog",null,new { @class=""})
+                @*@if (User.IsInRole("Admin"))
+                {
+                    <h3>@Html.ActionLink("Create", "Create")</h3>
+                }*@
+                <h3></h3>
+                <ol class="breadcrumb page-header__breadcrumb">
+                    <li><a href="">Home</a></li>
+                    <li class="active">Blog</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / .header  -->
+<!-- PAGE CONTENT
+============================== -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 col-md-9">
+            <div class="blog__items">
+                @foreach (var item in Model)
+                {
+                    <div class="blog__item">
+                        <div class="row">
+                            <div class="col-md-4" style="padding-right:0px">
+                                @if (item.MediaURL != null)
+                                {
+                                    <img class="img-responsive blog__img hidden-xs" src="@Url.Content(item.MediaURL)" alt="...">
+                                }
+                                else
+                                {
+                                    <img src="~/BlogStyle/img/general_1.jpg" alt="..." class="img-responsive blog__img hidden-xs">
+                                }
+                            </div>
+                            <div class="col-md-8" style="padding-left:0px">
+                                <div class="blog__content">
+                                    <h3 class="blog__title">
+                                        <a href="@Url.Action("Details", new { slug = item.Slug })">@Html.DisplayFor(modelItem => item.Title)</a>
+                                    </h3>
+                                    <ul class="blog__info">
+                                        <li><time datetime="2015-01-30">@item.Created.ToString("MMM dd, yyyy")</time></li>
+                                        <li><a href="#">Bootstrap</a></li>
+                                        <li><a href="#"><i class="fa fa-comments-o"></i> 2</a></li>
+                                    </ul>
+                                    <div class="blog__body">
+                                        @item.Body
+                                    </div>
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <br />
+                                        <div class="btn-group pull-right" role="group" aria-label="comment__actions">
+                                            <a href="#" class="btn btn-default btn-xs"><i class="fa fa-times"></i> Remove</a>
+                                            <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-default btn-xs"><i class="fa fa-edit"></i> Edit</a>
+                                            <a href="@Url.Action("Details", new { slug = item.Slug })" class="btn btn-primary btn-xs">Read More <i class="fa fa-angle-double-right"></i></a>
+                                        </div>
+
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- / .blog__item -->
+                }
+            </div> <!-- / .blog__items -->
+            <!-- Pager -->
+            @*<ul class="pager pull-left">
+                    <li class="disabled"><a href="#">Previous</a></li>
+                    <li><a href="#">Next</a></li>
+                </ul>*@
+            <div class="center-block">
+                Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), PagedListRenderOptions.TwitterBootstrapPager)
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <!-- Categories -->
+            <h3 class="header header_plain">Categories</h3>
+            <div class="list-group">
+                <a href="#" class="list-group-item active">
+                    <span class="badge">14</span> Bootstrap
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge">17</span> Coding
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge">22</span> Design
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge">8</span> Graphics
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge">21</span> Mobile
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge">10</span> UX Design
+                </a>
+            </div>
+            <!-- Recommended & Popular -->
+            <h3 class="header header_plain">More Stories</h3>
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#blog-tab_recommended" aria-controls="blog-tab_recommended" role="tab" data-toggle="tab">Recommended</a>
+                </li>
+                <li role="presentation">
+                    <a href="#blog-tab_popular" aria-controls="blog-tab_popular" role="tab" data-toggle="tab">Popular</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <!-- Recommended -->
+                <div role="tabpanel" class="tab-pane active" id="blog-tab_recommended">
+                    <div class="list-group blog-tab__list">
+                        <a href="#" class="list-group-item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            <time datetime="2015-01-01">January 1, 2015</time>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            Cras hendrerit tellus porttitor elementum commodo
+                            <time datetime="2015-01-02">January 2, 2015</time>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            Sed ultrices euismod hendrerit. Nunc augue tellus
+                            <time datetime="2015-01-03">January 3, 2015</time>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            Maecenas venenatis sodales sem
+                            <time datetime="2015-01-04">January 4, 2015</time>
+                        </a>
+                    </div>
+                </div>
+                <!-- Popular -->
+                <div role="tabpanel" class="tab-pane" id="blog-tab_popular">
+                    <div class="list-group blog-tab__list">
+                        <a href="#" class="list-group-item">
+                            Sed ultrices euismod hendrerit. Nunc augue tellus
+                            <time datetime="2015-01-05">January 5, 2015</time>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            <time datetime="2015-01-06">January 6, 2015</time>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            Maecenas venenatis sodales sem
+                            <time datetime="2015-01-07">January 7, 2015</time>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            Cras hendrerit tellus porttitor elementum commodo
+                            <time datetime="2015-01-08">January 8, 2015</time>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- / .row -->
+</div>
+<!-- / .container -->

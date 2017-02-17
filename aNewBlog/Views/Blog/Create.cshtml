@@ -1,0 +1,174 @@
+﻿@model aNewBlog.Models.BlogPost
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Beatrix :: Sign In (default)</title>
+
+    <!-- CSS Global -->
+    <link href="/BlogStyle/css/styles.css" rel="stylesheet">
+
+    <!-- CSS Plugins -->
+    <link href="/BlogStyle/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/BlogStyle/css/animate.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+        #dvPreview {
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale);
+            max-height: 100px;
+            max-width: 100px;
+            display: none;
+        }
+    </style>
+
+
+</head>
+
+<body class="body_plain">
+
+    <!-- PRELOADER (uncomment to enable)
+    ============================== -->
+    <!-- <div class="preloader">
+      <img src="img/preloader.gif" alt="Loading..." class="preloader__img">
+    </div> -->
+    <!-- PAGE CONTENT
+    ============================== -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="body-plain__title">
+                    <h1 class="text-center">New Blog</h1>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 col-sm-offset-3 col-md-offset-2 col-lg-offset-2">
+                <div class="body-plain__form">
+
+                    @using (Html.BeginForm("Create", "Blog", FormMethod.Post, new { enctype = "Multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            <h4>BlogPost</h4>
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-8">
+                                    @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Body, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-8">
+                                    @Html.EditorFor(model => model.Body, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.Body, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.MediaURL, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-4">
+                                    <input name="image" type="file" class="form-control" id="fileUpload" />
+                                    @Html.ValidationMessageFor(model => model.MediaURL, "", new { @class = "text-danger" })
+                                </div>
+                                <div id="dvPreview" style="width:360px; height:200px" >
+                                </div>
+                            </div>
+
+
+                            @*<div>
+                                <input name="image" type="file" class="form-control" id="fileUpload" />
+                                <hr />
+                                <b>Live Preview</b>
+                                <br />
+                                <br />
+                                <div id="dvPreview">
+                                </div>
+                            </div>*@
+
+
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" value="Create" class="btn btn-default" />
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+
+                </div> <!-- / .body-plain__form -->
+                <!-- Footer -->
+                <div class="body-plain__footer">
+                    Copyright 2015 <a href="http://simpleqode.com/">Simpleqode.com</a>. All Rights Reserved.
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+    <!-- Javascript
+    ============================== -->
+    <!-- JS Global -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/BlogStyle/js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- JS Plugins -->
+    <script src="/BlogStyle/js/scrolltopcontrol.js"></script>
+    <script src="/BlogStyle/js/wow.min.js"></script>
+
+    <!-- JS Custom -->
+    <script src="/BlogStyle/js/custom.js"></script>
+
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript">
+        $(function () {
+            $("#fileUpload").change(function () {
+                $("#dvPreview").html("");
+                var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.jpg|.jpeg|.gif|.png|.bmp)$/;
+                if (regex.test($(this).val().toLowerCase())) {
+                    if ($.browser.msie && parseFloat(jQuery.browser.version) <= 9.0) {
+                        $("#dvPreview").show();
+                        $("#dvPreview")[0].filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = $(this).val();
+                        $("#dvPreview")[0].filters.item("DXImageTransform.Microsoft.AlphaImageLoader").width(100).height(200);
+                    }
+                    else {
+                        if (typeof (FileReader) != "undefined") {
+                            $("#dvPreview").show();
+                            $("#dvPreview").append("<img />");
+                            var reader = new FileReader();
+                            reader.onload = function (e) {
+                                $("#dvPreview img").attr("src", e.target.result);
+                            }
+                            reader.readAsDataURL($(this)[0].files[0]);
+                        } else {
+                            alert("This browser does not support FileReader.");
+                        }
+                    }
+                } else {
+                    alert("Please upload a valid image file.");
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>

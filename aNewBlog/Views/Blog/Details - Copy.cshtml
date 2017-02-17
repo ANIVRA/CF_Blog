@@ -1,0 +1,142 @@
+﻿@model aNewBlog.Models.BlogPost
+
+@{
+    Layout = "~/Views/Shared/_BlogLayout.cshtml";
+}
+
+<div id="primary" class="col-sm-9">
+    <div class="content">
+
+        <header class="header">
+            <hgroup class="pull-left">
+                <h1 class="site-title">
+                    <a rel="home" title="Von" href="@Url.Action("Index")">
+                        <i class="fa fa-lemon-o"></i> Von
+                    </a>
+                </h1>
+            </hgroup>
+            <div id="" class="btn btn-primary pull-right">
+                <i class="fa fa-bars"></i>
+            </div>
+        </header> <!-- /header -->
+
+        <img src="~/images/florian-klauer.jpg" class="img-responsive">
+
+        <section class="post">
+            <header class="entry-header">
+                <img class="entry-avatar" alt="Antonio Raynor" height="80" width="70" src="~/Content/Antonio-Raynor.jpg">
+                <h2 class="entry-title"><a href="single.html">Von - Minimalist Blog Theme</a></h2>
+                <p class="entry-meta">
+                    Posted on <a class="entry-date" href="date.html">July 19, 2013</a> | By <a class="entry-author" href="author.html">Paul Laros</a> | Tags <a class="label label-danger" href="tag.html">CSS3</a>
+                </p>
+            </header>
+            <div class="entry-description">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                </p>
+                <p>
+                    Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.
+                </p>
+            </div>
+        </section>
+
+        @*@foreach (var item in Model.Comments)
+        {
+            <div class="comments">
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="/griny/images/team.jpg">
+                    </a>
+                    <div class="media-body">
+                        <div class="clearfix">
+                            <h4 class="media-heading">@Html.DisplayFor(modelItem => item.Author.FirstName) @Html.DisplayFor(modelItem => item.Author.LastName)</h4>
+                            <p>@Html.Raw(HttpUtility.HtmlDecode(item.Body))</p>
+
+                            <a href="#" class="pull-right"><i class="fa fa-reply"></i> Reply</a>
+                            <time id="sdat" class="pull-left">@item.Created.ToLocalTime().ToString("MM/dd/yyyy  h:mm")</time>
+
+
+                            @if (ViewContext.HttpContext.User.IsInRole("Admin"))
+                            {
+                                <div class="pull-right">
+                                    <a>
+                                        @Html.ActionLink("Edit", "Edit", "Comments", new { id = item.Id }, null) |
+                                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                                    </a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }*@
+
+        <ul>
+        @foreach (var comm in Model.Comments)
+        {
+            <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem  uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
+
+                <div class="UIImageBlock clearfix">
+
+                    <a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="http://www.facebook.com/tohloria.lewis" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="41554_50302938_1878686864_q.jpg" alt=""></a>
+
+                    <div class="UIImageBlock_Content UIImageBlock_MED_Content">
+
+                        <div class="postContainer fsl fwb fcb">
+
+                            <a class="profileName" target="_blank" href="http://www.facebook.com/tohloria.lewis">Tohloria Lewis</a>
+
+                            <div class="postContent fsm fwn fcg">
+
+                                <div class="postText">
+                                    I have
+
+                                    been using this Anti-Aging trial for 3 weeks now, and I seriously look 5
+
+                                    years younger! Not quite as good as this mom, but I will take it when
+
+                                    it was less than 5 bucks for each! My crow's feet and laugh lines are
+
+                                    melting away more and more every day. Thank you so much for reporting on
+
+                                    this!
+                                </div>
+
+                                <div class="stat_elem">
+
+                                    <div class="action_links fsm fwn fcg">
+
+                                        <a id="uz1cxy_5">Reply</a>
+
+                                        <span class="dotpos">.</span>
+
+                                        <a class="uiBlingBox postBlingBox" data-ft="{&quot;tn&quot;:&quot;O&quot;}"><i class="img sp_comments sx_comments_like"></i><span class="text">13</span></a> <span class="dotpos">.</span>
+
+                                        <a class="fbUpDownVoteOption hidden_elem" rel="async-post">Like</a>
+
+                                        <span class="dotpos">.</span>
+
+                                        <abbr title="Wednesday, May 30, 2012 at 8:06pm" data-utime="1338433588" class="timestamp">12 minutes ago</abbr>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="fsm fwn fcg"></div>
+
+                    </div>
+
+                </div>
+
+            </li>
+        }
+        </ul>
+
+    </div>
+</div>
+<!-- /#primary -->
